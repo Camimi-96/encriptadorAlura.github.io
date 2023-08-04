@@ -1,0 +1,132 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 130%;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area-texto{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #0a3871;
+    margin-top: 4em;
+    text-transform: lowercase;
+    width: 40em;
+    height: 20em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+::placeholder {color: #0a3873; font-size: 1.5em;}
+.area-texto:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("Imagenes/muñeco+texto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 4em;
+    margin-top: 4em;
+    padding-left: 2em;
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;  
+}
+
+.informacion{
+    font-size: 1em;
+}
+
+.btm-encriptar{
+   /* Button */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+   
+}
+
+.btm-desencriptar{
+    /* Button */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #0A3871;
+}
+
+.copiar{
+        /* Button */
+        box-sizing: border-box;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        width: 328px;
+        height: 67px;
+        /* Light gray */
+        background: #D8DFE8;
+        /* Dark blue/dark-blue-300 */
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}

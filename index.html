@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Encriptador de Texto</title>
+        <link rel=" stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header><img src="Imagenes/Vector.png" alt="Logo Alura" class="logo"></header>
+        <main class="contenido">
+            <section>
+                <div class="area-contenido">
+                <textarea class="area-texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+                <div>
+                    <h6 class="informacion">Sólo letras minúsculas y sin acentos.</h6>
+                </div>
+                <div class="botones">
+                    <button class="btm-encriptar" onclick="btmEncriptar()">Encriptar</button>
+                    <button class="btm-desencriptar" onclick="btmDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="resultado">
+                <div class="area-contenido">
+                <textarea class="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <!-- <div>
+                    <button class="btmCopiar">Copiar</button>
+                </div> -->
+            </section>
+        </main>
+        <script src="script.js"></script>
+        <footer><h3 class="persona-desarrollo">Camila San Martín</h3></footer>
+    </body>
+
+</html>
